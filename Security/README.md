@@ -4,7 +4,7 @@ In the context of modern APIs, token-based authentication is more common and wid
 </h3>
 <h3>Statelessness:</h3>
 <p>
-APIs are designed to be stateless, meaning they do not store session information on the server. Token-based authentication aligns well with this architectural principle, as each request can be authenticated independently, without the need to maintain session state on the server.
+APIs are designed to be stateless, meaning they do not store session information on the server. Token-based authentication aligns well with this architectural principle, as each request can be authenticated independently, without the need to maintain session state on the server. One the other hand, session-based authentication relies on the server maintaining session state for each user, which makes it stateful.
 </p>
 
 <h3>
