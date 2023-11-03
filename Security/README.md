@@ -21,3 +21,6 @@ Cross-Origin Requests:
  APIs are often accessed by various clients, including web browsers, mobile apps, and third-party applications. Token-based authentication is compatible with cross-origin requests, making it suitable for a diverse range of clients.  
  </p>
  
+<h3>
+In contrast, session-based authentication, which relies on maintaining session state on the server, can be less suitable for modern API scenarios. It requires the server to keep track of user sessions, which can become complex to manage and may not be ideal for stateless APIs.
+</h3>
